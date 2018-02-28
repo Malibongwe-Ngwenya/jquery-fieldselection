@@ -1,22 +1,15 @@
-# jQuery - fieldSelection
+# jQuery - lineSelection
 
-A jQuery plugin to get'n'set the caret/selection.
+A jQuery plugin to get the caret/selection.
 
 ## Description
 
 Retrieve the caret (text cursor) position from textareas and input
-fields as well as the actual selection and its index boundaries.
-Replacing the selection string is also supported. Unfortunately special
-treatment for such a simple thing is needed, because MSIE doesn't
-support the easy DOM 3.0 methods.
+fields as well as the actual selection, its index boundaries and selected line.
 
-## Status
+## Note
 
-First public release: `getSelection` and `replaceSelection` basically works.
-
-Check my [blog](http://blog.0xab.cd) or the
-[fieldSelection](http://laboratorium.0xab.cd/jquery/fieldselection/) page
-for further updates.
+This is a fork of [localhost/jquery-fieldselection](https://github.com/localhost/jquery-fieldselection)
 
 ## Requirements
 
